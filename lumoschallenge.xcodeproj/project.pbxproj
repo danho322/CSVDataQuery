@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89DC07E017AC7E75009F55A1 /* likedb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89DC07DF17AC7E75009F55A1 /* likedb.cpp */; };
+		89DC07E217AC7E75009F55A1 /* lumoschallenge.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 89DC07E117AC7E75009F55A1 /* lumoschallenge.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89DC07D917AC7E75009F55A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				89DC07E217AC7E75009F55A1 /* lumoschallenge.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89A5CA5717AECFE100365D8F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		89DC07DB17AC7E75009F55A1 /* lumoschallenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lumoschallenge; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DC07DF17AC7E75009F55A1 /* likedb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = likedb.cpp; sourceTree = "<group>"; };
+		89DC07E117AC7E75009F55A1 /* lumoschallenge.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = lumoschallenge.1; sourceTree = "<group>"; };
+		89DC07E817AC8046009F55A1 /* users.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = users.csv; sourceTree = "<group>"; };
+		89DC07E917AC806A009F55A1 /* likes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = likes.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DC07D817AC7E75009F55A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89DC07D017AC7E73009F55A1 = {
+			isa = PBXGroup;
+			children = (
+				89DC07DE17AC7E75009F55A1 /* lumoschallenge */,
+				89DC07DC17AC7E75009F55A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89DC07DC17AC7E75009F55A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89DC07DB17AC7E75009F55A1 /* lumoschallenge */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89DC07DE17AC7E75009F55A1 /* lumoschallenge */ = {
+			isa = PBXGroup;
+			children = (
+				89DC07DF17AC7E75009F55A1 /* likedb.cpp */,
+				89DC07E117AC7E75009F55A1 /* lumoschallenge.1 */,
+				89DC07E817AC8046009F55A1 /* users.csv */,
+				89DC07E917AC806A009F55A1 /* likes.csv */,
+				89A5CA5717AECFE100365D8F /* README.txt */,
+			);
+			path = lumoschallenge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89DC07DA17AC7E75009F55A1 /* lumoschallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DC07E517AC7E75009F55A1 /* Build configuration list for PBXNativeTarget "lumoschallenge" */;
+			buildPhases = (
+				89DC07D717AC7E75009F55A1 /* Sources */,
+				89DC07D817AC7E75009F55A1 /* Frameworks */,
+				89DC07D917AC7E75009F55A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lumoschallenge;
+			productName = lumoschallenge;
+			productReference = 89DC07DB17AC7E75009F55A1 /* lumoschallenge */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DC07D217AC7E73009F55A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 89DC07D517AC7E73009F55A1 /* Build configuration list for PBXProject "lumoschallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89DC07D017AC7E73009F55A1;
+			productRefGroup = 89DC07DC17AC7E75009F55A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89DC07DA17AC7E75009F55A1 /* lumoschallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89DC07D717AC7E75009F55A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DC07E017AC7E75009F55A1 /* likedb.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89DC07E317AC7E75009F55A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89DC07E417AC7E75009F55A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89DC07E617AC7E75009F55A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89DC07E717AC7E75009F55A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89DC07D517AC7E73009F55A1 /* Build configuration list for PBXProject "lumoschallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DC07E317AC7E75009F55A1 /* Debug */,
+				89DC07E417AC7E75009F55A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DC07E517AC7E75009F55A1 /* Build configuration list for PBXNativeTarget "lumoschallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DC07E617AC7E75009F55A1 /* Debug */,
+				89DC07E717AC7E75009F55A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89DC07D217AC7E73009F55A1 /* Project object */;
+}
